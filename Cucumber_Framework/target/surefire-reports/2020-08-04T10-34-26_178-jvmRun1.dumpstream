@@ -1,9 +1,0 @@
-# Created at 2020-08-04T10:35:58.679
-chrome not reachable
-  (Session info: chrome=84.0.4147.105)
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'URMILA-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\URMILA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65534}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8bcce5a8d3f29c4631e83cf7076b1da3
-

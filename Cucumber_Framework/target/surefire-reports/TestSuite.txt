@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 111.741 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.715 s <<< FAILURE! - in TestSuite
+testRunner.MainRunner.setUpClass  Time elapsed: 2.59 s  <<< FAILURE!
+java.lang.IllegalArgumentException: path must exist: E:\Automation\Automation Workspace\WS_finsys\Cucumber_Framework\Features\login.feature
+

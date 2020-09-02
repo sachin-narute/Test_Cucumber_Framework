@@ -1,94 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="208053" started-at="2020-08-04T06:28:02Z" finished-at="2020-08-04T06:31:30Z">
+  <suite name="Suite" duration-ms="338" started-at="2020-09-02T12:30:45Z" finished-at="2020-09-02T12:30:45Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.MainRunner@cb8df7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="208053" started-at="2020-08-04T06:28:02Z" finished-at="2020-08-04T06:31:30Z">
+    <test name="Test" duration-ms="338" started-at="2020-09-02T12:30:45Z" finished-at="2020-09-02T12:30:45Z">
       <class name="testRunner.MainRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.MainRunner@cb8df7]" name="setUpClass" is-config="true" duration-ms="1768" started-at="2020-08-04T11:58:02Z" finished-at="2020-08-04T11:58:04Z">
+        <test-method status="FAIL" signature="setUpClass()[pri:0, instance:testRunner.MainRunner@cb8df7]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-09-02T18:00:45Z" finished-at="2020-09-02T18:00:45Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[path must exist: E:\Automation\Automation Workspace\WS_finsys\Cucumber_Framework\Features\login.feature]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: path must exist: E:\Automation\Automation Workspace\WS_finsys\Cucumber_Framework\Features\login.feature
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:44)
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:28)
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
+	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
+	at io.cucumber.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:106)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.MainRunner@cb8df7]" name="runScenario" duration-ms="56370" started-at="2020-08-04T11:58:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-04T11:59:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login into account with correct details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[login]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.MainRunner@cb8df7]" name="runScenario" duration-ms="60409" started-at="2020-08-04T11:59:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-04T12:00:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login into account with correct details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[login]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<Your store. Login> but was:<Dashboard / nopCommerce administration>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<Your store. Login> but was:<Dashboard / nopCommerce administration>
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at stepDefinations.LoginStepDefination.user_should_be_taken_to_the_successful_login_page(LoginStepDefination.java:63)
-	at ?.User should be taken to the successful login page(file:///E:/Automation/Automation%20Workspace/WS_finsys/Cucumber_Framework/Features/login.feature:8)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.MainRunner@cb8df7]" name="runScenario" duration-ms="27572" started-at="2020-08-04T12:00:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-04T12:01:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login into account with correct details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[login]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<Your store. Login> but was:<Dashboard / nopCommerce administration>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<Your store. Login> but was:<Dashboard / nopCommerce administration>
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at stepDefinations.LoginStepDefination.user_should_be_taken_to_the_successful_login_page(LoginStepDefination.java:63)
-	at ?.User should be taken to the successful login page(file:///E:/Automation/Automation%20Workspace/WS_finsys/Cucumber_Framework/Features/login.feature:8)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.MainRunner@cb8df7]" name="tearDownClass" is-config="true" duration-ms="2441" started-at="2020-08-04T12:01:28Z" finished-at="2020-08-04T12:01:30Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.MainRunner@cb8df7]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-09-02T18:00:45Z" finished-at="2020-09-02T18:00:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
